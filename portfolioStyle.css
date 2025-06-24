@@ -1,0 +1,271 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.logo{
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img{
+  width: 33%;
+  border: 3px solid white;
+  border-radius: 50%;
+}
+
+.navbar{
+  display: flex;
+}
+
+.nav-list{
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.nav-list li{
+  list-style: none;
+  padding:26px 30px;
+}
+
+.nav-list li a{
+  text-decoration: none;
+  color: white;
+}
+
+.nav-list li a:hover{
+  color: grey;
+}
+
+
+.rightNav{
+  margin-top: 20px;
+  margin-right: 25px;
+  justify-content: center;
+  align-item: center;
+  width: 50%;
+  text-align: right;
+}
+
+#search{
+  padding: 5px;
+  font-size: 17px;
+  border-radius: 9px;
+}
+
+.background{
+  background: rgba(0, 0, 0, 0.7) url(D:\htl\\CityJPG.jpg);
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.firstSection{
+  height: 100vh;
+}
+
+.box-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Genva, Vardana, Sans-Serif;
+  max-width: 50%;
+  margin: auto;
+}
+
+.firstHalf{
+ width: 80%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+
+.secondHalf{
+  width: 30%;
+}
+
+.secondHalf img{
+  width: 80%;
+  border: 4px solid white;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+
+
+
+
+.button {
+  padding: 4px;
+  font-size: 17px;
+  border: 2px solid #827e7e;
+  border-radius: 7px;
+  background-color: #827e7ee6; /* Change background on hover */
+  cursor: pointer; /* Indicate clickable element */
+}
+
+
+.button:hover {
+  padding: 4px;
+  font-size: 17px;
+  border: 2px solid #555;
+  border-radius: 7px;
+  background-color: #555; /* Change background on hover */
+  cursor: pointer; /* Indicate clickable element */
+}
+
+
+.firstSection .text-big {
+  font-size: 2.5em; /* Larger font size for the main heading */
+  font-weight: bold;
+  margin-bottom: 10px; /* Space below the heading */
+}
+
+.firstSection .text-small {
+  font-size: 1.2em; /* Slightly larger font for the paragraph */
+  line-height: 1.5; /* Improved line height for readability */
+  margin-bottom: 20px; /* Space below the paragraph */
+}
+
+/* Example: Add a subtle box shadow to the image in the secondHalf */
+.secondHalf img {
+  /* Existing styles... */
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+}
+
+/* Example: Add a hover effect to the buttons */
+.buttons .btn {
+  /* Existing styles... */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+  border: none;
+	border-radius: 1rem;
+	padding: 6px;
+	box-shadow: 2px 2px 10px #3f815f;
+	outline: none;
+}
+
+.buttons .btn:hover {
+	box-shadow: 2px 2px 10px #fff;
+  background-color: #555; /* Change background on hover */
+  cursor: pointer; /* Indicate clickable element */
+}
+
+/* Example: Basic Media Query for responsiveness */
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Stack navbar items vertically on smaller screens */
+  }
+
+  .nav-list,
+  .rightNav {
+    width: 100%; /* Make nav list and right nav full width */
+    text-align: center; /* Center align text */
+  }
+
+  .nav-list li {
+    padding: 10px 0; /* Adjust padding for vertical list */
+  }
+
+  .box-main {
+    flex-direction: column; /* Stack items vertically in the main section */
+    max-width: 90%; /* Adjust max-width for smaller screens */
+  }
+
+  .firstHalf,
+  .secondHalf {
+    width: 100%; /* Make both halves full width */
+    align-items: center; /* Center align items */
+    text-align: center; /* Center align text */
+  }
+
+  .secondHalf img {
+    width: 60%; /* Adjust image size */
+    margin-top: 20px; /* Add space above the image */
+  }
+}
+
+body {
+	background-color: rgba(10, 20, 30, 0.1);
+}
+
+.mainI {
+	margin: auto;
+	width: auto;
+	background-color: rgb(0 0 0);
+	outline: solid rgb(0 0 0 / 83%) 10px;
+	padding: 20px;	
+}
+
+.mainII{
+	margin: 60px auto 10px;
+	marging-top: 80px;
+	width: 40%;
+	border: 40px ridge rgb(202 193 198 / 30%);
+	padding: 10px;
+	border-radius: 0.01%;
+	background-color: rgb(202 193 198);
+	outline: solid rgb(202 193 198 / 93%) 30px;
+}
+
+h1 {
+	font-family: Bodoni MT, Engravers MT;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	
+}
+
+h2 {
+	font-size: 25px;
+	text-align: center;
+	color:#1b6a4f;
+}
+
+
+.box {
+	margin: 5px;
+	width: 60%;
+	background-color: rgba(10, 20, 30, 0.05);
+	border: 3px ridge #7dd0b6;
+	padding: 4px;
+	border-radius: 3px;
+}
+
+.txta {
+	background-color: rgba(10, 20, 30, 0.05);
+	border: 3px ridge #7dd0b6;
+	margin: 5px;
+	height: 140px;
+	width: 80%;
+	padding: 4px;
+	border-radius: 3px;
+}
+
+.gender{
+	font-size: 20px;
+	color: #3d6e63;
+}
+.gender:hover{
+	color: #20a325;
+}
+
+.btn {
+	font-size: 16px;
+	color: white;
+	background-color: rgba(76 166 118 / 74%);
+	margin: 4px;
+	text-align: center;
+	/* padding: 4px; */
+	/* box-shadow: 2px 2px 10px red ; */
+}
+
+.photo {
+	position: absolute;
+	margin: 4px 5px auto 28%;
+	height: 100px;
+	width: 100px;
+	background-color: #9E9E9E;
+}
