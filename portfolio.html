@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>WebPortfolio</title>
+		<link rel="stylesheet" href="WebPortSty.css">
+	</head>
+  <body class="background">
+      <nav class="navbar background">
+        <ul class="nav-list">
+          <div class="logo">
+            <img class="#" src="D:\htl\pexels-life-of-pix-7974.jpg" alt="logo"/>
+          </div>
+          <li><a href="#home" id="homeid">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a id="serv" href="#services">Services</a></li>
+          <li><a href="#contact" onclick="scroll">Contact</a></li>
+        </ul>
+        <div class="rightNav">
+          <input type="text" name="search" id="search" placeholder=" search here..."/>
+          <button class="button" type="button" onclick="search">Search</button>
+        </div>
+      </nav>
+      <section class="background firstSection">
+        <div class="box-main">
+          <div class="firstHalf">
+            <p class="text-big">The Future of Education is here</p>
+            <p class="text-small">In this world of 7 billion people we need to educate all of them. This is the future of an educated world and we are proud to say that the Future of Education is here</p>
+            <div class="buttons">
+              <button class="btn">Subscribe</button>
+              <button class="btn">Watch Video</button>
+            </div>
+          <div class="secondHalf">
+            <img src="D:\htl\pexels-life-of-pix-7974.jpg" alt="Laptop Image" />
+          </div>  
+          </div>
+        </div>
+      </section>
+
+	<div id="main" class="mainI">
+			<section id="sec">
+				<h1>Registation Form</h1>
+			</section>
+		</div>
+		<div id="main2" class="mainII">
+			<form action="/action.php">
+				<h2> Fill the form </h2>
+
+				<input type="photo" class="photo">
+				<input type="text" placeholder="Enter Full Name" class="box"><br>
+				<input type="email" placeholder="Enter Email" class="box"><br>
+				<input type="Number" placeholder="Enter Mobile No." class="box"><br>
+				<label for="M" class="gender" >
+				<input type="radio" value="male" name="gender" id="M">Male
+				</label>
+				<label for="F" class="gender">
+				<input type="radio" value="female" name="gender" id="F">Female
+				</label><br>
+				<textarea name="feedback" id="feedback" placeholder="Please Give Here Your Openion Or Feedback" class="txta"></textarea>
+				<button type="submite" class="btn">SUBMITE</button>
+			</form>
+		</div>
+<input id="clr" type="color">
+<button class="clbt">Change-Color</button>
+  <script src="WebPjs.js"></script>
+  </body>
+</html>
+
